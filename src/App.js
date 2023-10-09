@@ -22,42 +22,6 @@ function App() {
         <SayeonRect />
         <SayeonRect />
         <SayeonRect />
-
-          {/* <div className='d2'>
-            <div className='d22'>
-              <img src={Orange}></img>
-            </div>
-            <div className='d222'>
-              <button>음악 제목, 가수</button>
-              <div className='d1111'>
-                    <button>음악 공유하기</button>
-                </div>
-            </div>
-          </div>
-
-          <div className='d3'>
-            <div className='d33'>
-              <img src={Orange}></img>
-            </div>
-            <div className='d333'>
-              <button>음악 제목, 가수</button>
-              <div className='d1111'>
-                    <button>음악 공유하기</button>
-                </div>
-            </div>
-          </div>
-
-          <div className='d4'>
-            <div className='d44'>
-              <img src={Orange}></img>
-            </div>
-            <div className='d444'>
-              <button>음악 제목, 가수</button>
-              <div className='d1111'>
-                    <button>음악 공유하기</button>
-                </div>
-            </div>
-          </div> */}
       
         </div>
       </div>
