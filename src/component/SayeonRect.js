@@ -1,6 +1,6 @@
 import React from 'react';
-
-function SayeonRect({picture,text}) {
+import {Route,Link} from 'react-router-dom';
+export default function SayeonRect({picture,text}) {
     return (
         <div className='d1'>
             <div className='d11'>
@@ -15,5 +15,3 @@ function SayeonRect({picture,text}) {
         </div>
     );
 }
-
-export default SayeonRect;

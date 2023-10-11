@@ -1,13 +1,19 @@
 import React from 'react';
+import {Route,Link} from 'react-router-dom';
 
-function Header(props) {
+export default function Header({picture,text}) {
     return (
-        <div>
-            <header>
-                <h1>헤더임.</h1>
-            </header>
+        <div className='d2'>
+            <div className='d22'>
+              <img src={picture}></img>
+            </div>
+            <div className='d222'>
+              <button>음악 제목, 가수</button>
+                <div className='d2222'>
+                    <button>음악 공유하기</button>
+                </div>
+            </div>
         </div>
+
     );
 }
-
-export default Header;
