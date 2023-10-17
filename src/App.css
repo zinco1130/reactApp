@@ -1,30 +1,13 @@
 @charset "utf-8";
 
-*{
-  margin: 0;
-  padding:0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.App{
-  width:250px;
-  height:700px; 
-  background-color:rgb(182, 199, 199);
-}
-
 .upperBar {
   text-align: center;
   line-height: 10vh;
   width: 100vw;
   height: 10vh;
   background-color: rgb(255, 255, 255);
+  top: 0;
+  left: 0;
 }
 
 .main {
@@ -39,41 +22,22 @@ a {
   padding-top: 1%;
   width: 1420px;
   height: 50px;
-  background-color: rgb(229, 213, 213);
+  background-color: rgb(232, 182, 182);
+  top: 0;
+  left: 0;
 }
 
-.compMain {
-  width: 1450px;
-  height: 700px;
-  background-color: aqua;
-  background-image: url("../src/radio.jpeg");
-  background-size: cover;
-}
-
-.d1 {
+.side {
   float: left;
   width: 20%;
-  height: 85%;
-  background-color: rgb(255, 208, 0);
+  height: 100%;
+  position: sticky;
+  background-color: rgb(225, 224, 207);
 }
-
-.d2 {
-  display: inline-block;
+.back {
   width: 100%;
-  height: 85%;
-  background-color: rgb(12, 90, 93);
-}
-
-.d3{
-  display: left;
-  width: 20%;
-  height: 85%;
-  background-color: rgb(128, 33, 112);
-}
-
-.d4 {
-  display:inline-block;
-  width: 20%;
-  height: 85%;
-  background-color: rgb(209, 137, 50);
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  background-image: url("./radio.jpeg");
+  object-fit: cover;
 }
